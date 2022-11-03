@@ -9,6 +9,7 @@ public class Bienvenida extends JFrame implements ActionListener {
 		private JButton boton1;
 		public static String texto = ""; 
 		
+		
 		public Bienvenida() {
 			setLayout(null);
 			setDefaultCloseOperation(EXIT_ON_CLOSE);
