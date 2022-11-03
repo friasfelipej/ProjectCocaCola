@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="ProJectCocaCola/info/Proyecto - Curso JAVA #42 (2)/Proyecto - Curso JAVA #42/Proyecto"/>
+	<classpathentry kind="src" path="ProJectCocaCola/src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
