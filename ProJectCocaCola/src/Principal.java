@@ -93,7 +93,7 @@ public class Principal extends JFrame implements ActionListener {
 		menuOpciones.add(miSalir);
 		miSalir.addActionListener(this);
 		
-		ImageIcon imagen = new ImageIcon(getClass().getResource("images/Logo-coca.png"));
+		ImageIcon imagen = new ImageIcon(getClass().getResource("images/logo-coca.png"));
 		labelLogo = new JLabel(imagen);
 		labelLogo.setBounds(5,5,250,100);
 		add(labelLogo);
@@ -287,7 +287,7 @@ public class Principal extends JFrame implements ActionListener {
 			txtAPaternoTrabajador.setText("");
 			txtAMaternoTrabajador.setText("");
 			comboDepartamento.setSelectedIndex(0);
-			comboAntiguedad.setSelectedItem(0);
+			comboAntiguedad.setSelectedIndex(0);
 			textarea1.setText("\n   Aqui aparaece el resulatdo del calculo de las vacaciones");
 		}
 		if (e.getSource() == miSalir) {
